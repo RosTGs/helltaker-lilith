@@ -1,8 +1,51 @@
-# Helltaker — Лилит / AI Lab
+<p align="center">
+  <img src="docs/images/lilith-cover.png" alt="Helltaker: Lilith — Лилит с ключом у багровых врат ада" width="960">
+</p>
 
-Мод для Windows-версии Helltaker: Лилит становится главной героиней, танцует в ритме музыки и участвует в русской версии истории.
+<h1 align="center">Helltaker · Лилит</h1>
 
-**[Скачать готовый мод](https://github.com/RosTGs/helltaker-lilith/releases/latest)** · **[Инструкция установки](docs/INSTALLATION.md)**
+<p align="center"><strong>Своя героиня. Свой ритм. История на русском.</strong></p>
+
+<p align="center">
+  <a href="https://github.com/RosTGs/helltaker-lilith/releases/latest"><img src="https://img.shields.io/github/v/release/RosTGs/helltaker-lilith?style=flat-square&amp;color=bc3548&amp;label=release" alt="Последний релиз"></a>
+  <img src="https://img.shields.io/badge/Windows-x64-543846?style=flat-square" alt="Windows x64">
+  <img src="https://img.shields.io/badge/113-текстур-bc3548?style=flat-square" alt="113 текстур">
+  <img src="https://img.shields.io/badge/текст-Русский-543846?style=flat-square" alt="Русский текст">
+</p>
+
+<p align="center">
+  <a href="https://github.com/RosTGs/helltaker-lilith/releases/latest"><strong>Скачать мод</strong></a> ·
+  <a href="docs/INSTALLATION.md">Установка</a> ·
+  <a href="docs/GALLERY.md">Галерея</a> ·
+  <a href="docs/VISUAL_PACKS.md">Свои визуалы</a> ·
+  <a href="docs/AI_INTERFACE.md">AI Lab</a>
+</p>
+
+Лилит отправляется в ад: чёрное каре со светлыми прядями, красный чокер и спокойная уверенность перед очередной головоломкой. Фанатский мод заменяет главного героя взрослой девушкой, адаптирует русские реплики под её историю и связывает танцевальную стойку с музыкой игры.
+
+| Героиня | Ритм | История |
+|---|---|---|
+| 113 текстур: спрайты, портреты, сюжетные арты | 12 фаз танца, три варианта внешности | Основная игра и Examtaker на русском |
+| Свои PNG через пакеты внешности | Опора стоп и фаза музыкальной композиции | 47 файлов и 586 адаптированных строк |
+
+## Мир Лилит
+
+Три новые иллюстрации для страницы проекта: путешествие, домашняя передышка и испытание. Обложка и галерея созданы специально для оформления репозитория; игровые текстуры поставляются в каталогах `packs`.
+
+<table>
+  <tr>
+    <td width="33%"><a href="docs/images/lilith-dance.png"><img src="docs/images/lilith-dance.png" alt="Лилит танцует на каменной плите среди адских колонн" width="320"></a></td>
+    <td width="33%"><a href="docs/images/lilith-pancakes.png"><img src="docs/images/lilith-pancakes.png" alt="Лилит в фартуке подбрасывает блин на уютной кухне" width="320"></a></td>
+    <td width="33%"><a href="docs/images/lilith-examtaker.png"><img src="docs/images/lilith-examtaker.png" alt="Лилит с механическим трофеем в испытательной камере 67" width="320"></a></td>
+  </tr>
+  <tr>
+    <td><strong>Две доли в аду</strong><br>Пружинящие колени, лёгкий жест и музыка между ходами.</td>
+    <td><strong>Завтрак после ада</strong><br>Фартук, кофе и блины — домашняя сторона приключения.</td>
+    <td><strong>Испытуемая 67</strong><br>Лазеры, лаборатория и собственный взгляд на правила.</td>
+  </tr>
+</table>
+
+[Открыть галерею с описаниями →](docs/GALLERY.md)
 
 ## Что входит
 
@@ -51,6 +94,7 @@
 - [Свои картинки и варианты внешности](docs/VISUAL_PACKS.md)
 - [Редактирование русского текста](docs/LOCALIZATION.md)
 - [Интерфейс агента и сборка](docs/AI_INTERFACE.md)
+- [Галерея и художественное направление](docs/GALLERY.md)
 
 | Каталог | Содержимое |
 |---|---|
@@ -61,12 +105,13 @@
 | `localization/ru-lilith` | Редактируемые строки перевода |
 | `python/helltaker_lab` | Клиент, симулятор головоломок, Gym, обучение |
 | `distribution` | Переносимые команды запуска и выбора пакета |
+| `docs/images` | Обложка, иллюстрации галереи и запросы генерации |
 | `scripts/package_release.py` | Сборка архива мода |
 
 ## Авторы и зависимости
 
 Helltaker и исходные персонажи созданы **Łukasz Piskorz / vanripper**, музыка — **Mittsies**, звуковое оформление — **Patryk Karwat**. Мод запускается с собственной копией игры пользователя. Игровой движок, оригинальные ресурсы и музыка берутся из этой копии.
 
-Графика Лилит создана с помощью OpenAI image generation и подготовлена локальным конвейером спрайтов. Перевод и мод разработаны при помощи Codex. Подход к исследованию: [universal-modder](https://github.com/rehan-remade/universal-modder) и [REA](https://github.com/morluto/rea).
+Графика Лилит создана с помощью OpenAI image generation и подготовлена локальным конвейером спрайтов. Четыре иллюстрации оформления созданы встроенным `image_gen.imagegen`; [запросы генерации](docs/images/prompts.json) сохранены вместе с PNG. Перевод и мод разработаны при помощи Codex. Подход к исследованию: [universal-modder](https://github.com/rehan-remade/universal-modder) и [REA](https://github.com/morluto/rea).
 
 Загрузчик: [BepInEx](https://github.com/BepInEx/BepInEx). В готовом архиве используется Newtonsoft.Json 13.0.3; [текст лицензии MIT](third-party/Newtonsoft.Json.LICENSE.md) включён в поставку.
