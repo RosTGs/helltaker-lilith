@@ -1,0 +1,539 @@
+{
+  "name": "Lilith — Helltaker",
+  "version": "1.4",
+  "animation_speeds": {
+    "hero100_dash_V2": 1.5,
+    "hero100_kick": 4.0,
+    "heroA_dash": 1.5,
+    "sub67_dash": 1.5,
+    "sub67__kick": 4.0
+  },
+  "idle_sync": {
+    "beats_per_cycle": 2,
+    "fallback_bpm": 150,
+    "profiles": {
+      "Alchemy": {
+        "bpm": 135.0,
+        "offset_seconds": 0.032986
+      },
+      "Apropos": {
+        "bpm": 128.0,
+        "offset_seconds": 0.027466
+      },
+      "Epitomize": {
+        "bpm": 140.0,
+        "offset_seconds": 0.021763
+      },
+      "Luminescent": {
+        "bpm": 132.0,
+        "offset_seconds": 0.012429
+      },
+      "Titanium": {
+        "bpm": 140.0,
+        "offset_seconds": 0.02846
+      },
+      "Vitality": {
+        "bpm": 150.0,
+        "offset_seconds": 0.017188
+      }
+    },
+    "clips": {
+      "hero100_idle_S": [
+        "hero0022",
+        "hero0023",
+        "hero0024",
+        "hero0025",
+        "hero0026",
+        "hero0027",
+        "hero0028",
+        "hero0029",
+        "hero0030",
+        "hero0031",
+        "hero0032",
+        "hero0033"
+      ],
+      "heroA_idle": [
+        "heroapron0001",
+        "heroapron0002",
+        "heroapron0003",
+        "heroapron0004",
+        "heroapron0005",
+        "heroapron0006",
+        "heroapron0007",
+        "heroapron0008",
+        "heroapron0009",
+        "heroapron0010",
+        "heroapron0011",
+        "heroapron0012"
+      ],
+      "sub67_idle_S": [
+        "sub670001",
+        "sub670002",
+        "sub670003",
+        "sub670004",
+        "sub670005",
+        "sub670006",
+        "sub670007",
+        "sub670008",
+        "sub670009",
+        "sub670010",
+        "sub670011",
+        "sub670012"
+      ]
+    }
+  },
+  "textures": [
+    {
+      "key": "assets100V20053__100x220",
+      "file": "textures/assets100V20053__100x220.png"
+    },
+    {
+      "key": "assets100V20054__100x220",
+      "file": "textures/assets100V20054__100x220.png"
+    },
+    {
+      "key": "assets100V20055__100x220",
+      "file": "textures/assets100V20055__100x220.png"
+    },
+    {
+      "key": "assets100V20056__100x220",
+      "file": "textures/assets100V20056__100x220.png"
+    },
+    {
+      "key": "assets100V20057__100x220",
+      "file": "textures/assets100V20057__100x220.png"
+    },
+    {
+      "key": "assets100V20058__100x220",
+      "file": "textures/assets100V20058__100x220.png"
+    },
+    {
+      "key": "cutscene_0002_Group-2__1280x652",
+      "file": "textures/cutscene_0002_Group-2__1280x652.png"
+    },
+    {
+      "key": "cutscene_0003_Group-3-copy-2__1280x652",
+      "file": "textures/cutscene_0003_Group-3-copy-2__1280x652.png"
+    },
+    {
+      "key": "cutscene_0004_Layer-273-copy__1280x652",
+      "file": "textures/cutscene_0004_Layer-273-copy__1280x652.png"
+    },
+    {
+      "key": "cutscene_0005_Layer-196__1280x652",
+      "file": "textures/cutscene_0005_Layer-196__1280x652.png"
+    },
+    {
+      "key": "cutscene_0006_Group-6-copy-3__1280x652",
+      "file": "textures/cutscene_0006_Group-6-copy-3__1280x652.png"
+    },
+    {
+      "key": "cutscene_0007_Group-6-copy-6__1280x652",
+      "file": "textures/cutscene_0007_Group-6-copy-6__1280x652.png"
+    },
+    {
+      "key": "cutscene_0008_Group-5__1280x652",
+      "file": "textures/cutscene_0008_Group-5__1280x652.png"
+    },
+    {
+      "key": "dlcCutscen0__1280x652",
+      "file": "textures/dlcCutscen0__1280x652.png"
+    },
+    {
+      "key": "dlcCutscen1__1280x652",
+      "file": "textures/dlcCutscen1__1280x652.png"
+    },
+    {
+      "key": "dlcCutscen2__1280x652",
+      "file": "textures/dlcCutscen2__1280x652.png"
+    },
+    {
+      "key": "hero0022__100x220",
+      "file": "textures/hero0022__100x220.png"
+    },
+    {
+      "key": "hero0023__100x220",
+      "file": "textures/hero0023__100x220.png"
+    },
+    {
+      "key": "hero0024__100x220",
+      "file": "textures/hero0024__100x220.png"
+    },
+    {
+      "key": "hero0025__100x220",
+      "file": "textures/hero0025__100x220.png"
+    },
+    {
+      "key": "hero0026__100x220",
+      "file": "textures/hero0026__100x220.png"
+    },
+    {
+      "key": "hero0027__100x220",
+      "file": "textures/hero0027__100x220.png"
+    },
+    {
+      "key": "hero0028__100x220",
+      "file": "textures/hero0028__100x220.png"
+    },
+    {
+      "key": "hero0029__100x220",
+      "file": "textures/hero0029__100x220.png"
+    },
+    {
+      "key": "hero0030__100x220",
+      "file": "textures/hero0030__100x220.png"
+    },
+    {
+      "key": "hero0031__100x220",
+      "file": "textures/hero0031__100x220.png"
+    },
+    {
+      "key": "hero0032__100x220",
+      "file": "textures/hero0032__100x220.png"
+    },
+    {
+      "key": "hero0033__100x220",
+      "file": "textures/hero0033__100x220.png"
+    },
+    {
+      "key": "hero0040__100x220",
+      "file": "textures/hero0040__100x220.png"
+    },
+    {
+      "key": "hero0041__100x220",
+      "file": "textures/hero0041__100x220.png"
+    },
+    {
+      "key": "hero0042__100x220",
+      "file": "textures/hero0042__100x220.png"
+    },
+    {
+      "key": "hero0043__100x220",
+      "file": "textures/hero0043__100x220.png"
+    },
+    {
+      "key": "hero0044__100x220",
+      "file": "textures/hero0044__100x220.png"
+    },
+    {
+      "key": "hero0045__100x220",
+      "file": "textures/hero0045__100x220.png"
+    },
+    {
+      "key": "hero0046__100x220",
+      "file": "textures/hero0046__100x220.png"
+    },
+    {
+      "key": "hero0047__100x220",
+      "file": "textures/hero0047__100x220.png"
+    },
+    {
+      "key": "hero0048__100x220",
+      "file": "textures/hero0048__100x220.png"
+    },
+    {
+      "key": "hero0049__100x220",
+      "file": "textures/hero0049__100x220.png"
+    },
+    {
+      "key": "hero0050__100x220",
+      "file": "textures/hero0050__100x220.png"
+    },
+    {
+      "key": "hero0051__100x220",
+      "file": "textures/hero0051__100x220.png"
+    },
+    {
+      "key": "hero0052__100x220",
+      "file": "textures/hero0052__100x220.png"
+    },
+    {
+      "key": "hero0059__100x220",
+      "file": "textures/hero0059__100x220.png"
+    },
+    {
+      "key": "hero0060__100x220",
+      "file": "textures/hero0060__100x220.png"
+    },
+    {
+      "key": "hero0061__100x220",
+      "file": "textures/hero0061__100x220.png"
+    },
+    {
+      "key": "hero0062__100x220",
+      "file": "textures/hero0062__100x220.png"
+    },
+    {
+      "key": "hero0063__100x220",
+      "file": "textures/hero0063__100x220.png"
+    },
+    {
+      "key": "hero0064__100x220",
+      "file": "textures/hero0064__100x220.png"
+    },
+    {
+      "key": "hero0065__100x220",
+      "file": "textures/hero0065__100x220.png"
+    },
+    {
+      "key": "hero0066__100x220",
+      "file": "textures/hero0066__100x220.png"
+    },
+    {
+      "key": "hero0067__100x220",
+      "file": "textures/hero0067__100x220.png"
+    },
+    {
+      "key": "hero0068__100x220",
+      "file": "textures/hero0068__100x220.png"
+    },
+    {
+      "key": "hero0069__100x220",
+      "file": "textures/hero0069__100x220.png"
+    },
+    {
+      "key": "hero0070__100x220",
+      "file": "textures/hero0070__100x220.png"
+    },
+    {
+      "key": "hero0071__100x220",
+      "file": "textures/hero0071__100x220.png"
+    },
+    {
+      "key": "hero0072__100x220",
+      "file": "textures/hero0072__100x220.png"
+    },
+    {
+      "key": "hero0073__100x220",
+      "file": "textures/hero0073__100x220.png"
+    },
+    {
+      "key": "hero0074__100x220",
+      "file": "textures/hero0074__100x220.png"
+    },
+    {
+      "key": "hero0075__100x220",
+      "file": "textures/hero0075__100x220.png"
+    },
+    {
+      "key": "hero0076__100x220",
+      "file": "textures/hero0076__100x220.png"
+    },
+    {
+      "key": "hero0077__100x220",
+      "file": "textures/hero0077__100x220.png"
+    },
+    {
+      "key": "heroapron0001__100x156",
+      "file": "textures/heroapron0001__100x156.png"
+    },
+    {
+      "key": "heroapron0002__100x156",
+      "file": "textures/heroapron0002__100x156.png"
+    },
+    {
+      "key": "heroapron0003__100x156",
+      "file": "textures/heroapron0003__100x156.png"
+    },
+    {
+      "key": "heroapron0004__100x156",
+      "file": "textures/heroapron0004__100x156.png"
+    },
+    {
+      "key": "heroapron0005__100x156",
+      "file": "textures/heroapron0005__100x156.png"
+    },
+    {
+      "key": "heroapron0006__100x156",
+      "file": "textures/heroapron0006__100x156.png"
+    },
+    {
+      "key": "heroapron0007__100x156",
+      "file": "textures/heroapron0007__100x156.png"
+    },
+    {
+      "key": "heroapron0008__100x156",
+      "file": "textures/heroapron0008__100x156.png"
+    },
+    {
+      "key": "heroapron0009__100x156",
+      "file": "textures/heroapron0009__100x156.png"
+    },
+    {
+      "key": "heroapron0010__100x156",
+      "file": "textures/heroapron0010__100x156.png"
+    },
+    {
+      "key": "heroapron0011__100x156",
+      "file": "textures/heroapron0011__100x156.png"
+    },
+    {
+      "key": "heroapron0012__100x156",
+      "file": "textures/heroapron0012__100x156.png"
+    },
+    {
+      "key": "heroapron0013__100x156",
+      "file": "textures/heroapron0013__100x156.png"
+    },
+    {
+      "key": "heroapron0014__100x156",
+      "file": "textures/heroapron0014__100x156.png"
+    },
+    {
+      "key": "heroapron0015__100x156",
+      "file": "textures/heroapron0015__100x156.png"
+    },
+    {
+      "key": "heroapron0016__100x156",
+      "file": "textures/heroapron0016__100x156.png"
+    },
+    {
+      "key": "heroapron0017__100x156",
+      "file": "textures/heroapron0017__100x156.png"
+    },
+    {
+      "key": "heroapron0018__100x156",
+      "file": "textures/heroapron0018__100x156.png"
+    },
+    {
+      "key": "man_pc__752x748",
+      "file": "textures/man_pc__752x748.png"
+    },
+    {
+      "key": "man_pc2__752x748",
+      "file": "textures/man_pc2__752x748.png"
+    },
+    {
+      "key": "su67_a__1052x748",
+      "file": "textures/su67_a__1052x748.png"
+    },
+    {
+      "key": "su67_suit__1052x748",
+      "file": "textures/su67_suit__1052x748.png"
+    },
+    {
+      "key": "sub670001__100x156",
+      "file": "textures/sub670001__100x156.png"
+    },
+    {
+      "key": "sub670002__100x156",
+      "file": "textures/sub670002__100x156.png"
+    },
+    {
+      "key": "sub670003__100x156",
+      "file": "textures/sub670003__100x156.png"
+    },
+    {
+      "key": "sub670004__100x156",
+      "file": "textures/sub670004__100x156.png"
+    },
+    {
+      "key": "sub670005__100x156",
+      "file": "textures/sub670005__100x156.png"
+    },
+    {
+      "key": "sub670006__100x156",
+      "file": "textures/sub670006__100x156.png"
+    },
+    {
+      "key": "sub670007__100x156",
+      "file": "textures/sub670007__100x156.png"
+    },
+    {
+      "key": "sub670008__100x156",
+      "file": "textures/sub670008__100x156.png"
+    },
+    {
+      "key": "sub670009__100x156",
+      "file": "textures/sub670009__100x156.png"
+    },
+    {
+      "key": "sub670010__100x156",
+      "file": "textures/sub670010__100x156.png"
+    },
+    {
+      "key": "sub670011__100x156",
+      "file": "textures/sub670011__100x156.png"
+    },
+    {
+      "key": "sub670012__100x156",
+      "file": "textures/sub670012__100x156.png"
+    },
+    {
+      "key": "sub670013__100x156",
+      "file": "textures/sub670013__100x156.png"
+    },
+    {
+      "key": "sub670014__100x156",
+      "file": "textures/sub670014__100x156.png"
+    },
+    {
+      "key": "sub670015__100x156",
+      "file": "textures/sub670015__100x156.png"
+    },
+    {
+      "key": "sub670016__100x156",
+      "file": "textures/sub670016__100x156.png"
+    },
+    {
+      "key": "sub670017__100x156",
+      "file": "textures/sub670017__100x156.png"
+    },
+    {
+      "key": "sub670018__100x156",
+      "file": "textures/sub670018__100x156.png"
+    },
+    {
+      "key": "sub670019__100x156",
+      "file": "textures/sub670019__100x156.png"
+    },
+    {
+      "key": "sub670020__100x156",
+      "file": "textures/sub670020__100x156.png"
+    },
+    {
+      "key": "sub670021__100x156",
+      "file": "textures/sub670021__100x156.png"
+    },
+    {
+      "key": "sub670022__100x156",
+      "file": "textures/sub670022__100x156.png"
+    },
+    {
+      "key": "sub670023__100x156",
+      "file": "textures/sub670023__100x156.png"
+    },
+    {
+      "key": "sub670024__100x156",
+      "file": "textures/sub670024__100x156.png"
+    },
+    {
+      "key": "sub670025__100x156",
+      "file": "textures/sub670025__100x156.png"
+    },
+    {
+      "key": "sub670026__100x156",
+      "file": "textures/sub670026__100x156.png"
+    },
+    {
+      "key": "sub670027__100x156",
+      "file": "textures/sub670027__100x156.png"
+    },
+    {
+      "key": "sub670028__100x156",
+      "file": "textures/sub670028__100x156.png"
+    },
+    {
+      "key": "sub670029__100x156",
+      "file": "textures/sub670029__100x156.png"
+    },
+    {
+      "key": "sub670030__100x156",
+      "file": "textures/sub670030__100x156.png"
+    },
+    {
+      "key": "sub670031__100x156",
+      "file": "textures/sub670031__100x156.png"
+    }
+  ]
+}

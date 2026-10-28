@@ -1,0 +1,26 @@
+{
+  "Alchemy": {
+    "bpm": 135.0,
+    "offset_seconds": 0.032986
+  },
+  "Apropos": {
+    "bpm": 128.0,
+    "offset_seconds": 0.027466
+  },
+  "Epitomize": {
+    "bpm": 140.0,
+    "offset_seconds": 0.021763
+  },
+  "Luminescent": {
+    "bpm": 132.0,
+    "offset_seconds": 0.012429
+  },
+  "Titanium": {
+    "bpm": 140.0,
+    "offset_seconds": 0.02846
+  },
+  "Vitality": {
+    "bpm": 150.0,
+    "offset_seconds": 0.017188
+  }
+}

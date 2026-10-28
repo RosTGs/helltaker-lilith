@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helltaker-ai-lab"
+version = "0.2.0"
+description = "Local observations, visual packs and learning environment for Helltaker"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+learning = ["numpy>=1.24,<3", "torch>=2.1", "gymnasium>=0.29,<2"]
+assets = ["numpy>=1.24,<3", "Pillow>=10", "scipy>=1.10", "UnityPy>=1.25,<2", "imageio-ffmpeg>=0.5"]
+
+[project.scripts]
+helltaker-lab = "helltaker_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["python"]

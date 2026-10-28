@@ -1,0 +1,244 @@
+{
+  "name": "Лилит — русская история",
+  "version": "1.0",
+  "language": "ru",
+  "protagonist": "Лилит",
+  "font": "Georgia",
+  "files": [
+    {
+      "path": "local/m.json",
+      "lines": 35,
+      "source_sha256": "9cb09e3777ab58d9e0b7148e863e4e065a0b2c633903daf85a9565b93f3f2010"
+    },
+    {
+      "path": "local/m1.json",
+      "lines": 23,
+      "source_sha256": "3e93cb06d5f6d45715a534410cb906bed0763f5ba5bc8d2c28192c31c0bfc9d2"
+    },
+    {
+      "path": "local/m2.json",
+      "lines": 11,
+      "source_sha256": "d6bcc207901ef2f2eb6b30c69494d2c5025b905b2103f2530443b3a0c9c3b46e"
+    },
+    {
+      "path": "local/1.json",
+      "lines": 9,
+      "source_sha256": "f19b0de55fe39278d28ba3142192cf0630b85bea1471e74ad95afe44832ec774"
+    },
+    {
+      "path": "local/1h.json",
+      "lines": 5,
+      "source_sha256": "4cc440bbafb23fe8c08635b8e83932230ff5ab70472505e42387a91547b974d3"
+    },
+    {
+      "path": "local/2.json",
+      "lines": 8,
+      "source_sha256": "4993781042bb66eb3c868d4624610885a453b2549756c97ac14ede1074aac69e"
+    },
+    {
+      "path": "local/2h.json",
+      "lines": 9,
+      "source_sha256": "1c602118f3956ac952952a9ed8d5a9561615e9edcdb477e349bae6234ecdc40a"
+    },
+    {
+      "path": "local/3.json",
+      "lines": 7,
+      "source_sha256": "fbde4a9a3cd37a5049bbcbf4601d6f8d1cdeb6525709e6fa2363a44b22d7b1e0"
+    },
+    {
+      "path": "local/3h.json",
+      "lines": 7,
+      "source_sha256": "efc39446f1274b105ddae68351f96b4cf918faa3cefb271474351efdd8aa795f"
+    },
+    {
+      "path": "local/4.json",
+      "lines": 8,
+      "source_sha256": "a8af6d57b04cb6c549da8f7047da12f469d92bba2229b1ecc82cccd41b0cadec"
+    },
+    {
+      "path": "local/4h.json",
+      "lines": 8,
+      "source_sha256": "52b8e3bd72cb9222f6a90a7580d29a1bdce74d043f9e3f9d46b375b23aacc4d6"
+    },
+    {
+      "path": "local/5.json",
+      "lines": 7,
+      "source_sha256": "a4e0d5c5cf6b300c6ab931667042ed9ca021ee4d9f1e540fce4e772f7a54dd16"
+    },
+    {
+      "path": "local/5h.json",
+      "lines": 6,
+      "source_sha256": "57dba112b5b926e76c4f5e739837d923a3ca6e67d4db521414755d7724d84e1d"
+    },
+    {
+      "path": "local/6.json",
+      "lines": 9,
+      "source_sha256": "f2fd7f427e7376c5ae9d3dee80ca78a7a9cf2dc09a066acad0e6bcc81d1d07cc"
+    },
+    {
+      "path": "local/6h.json",
+      "lines": 18,
+      "source_sha256": "60e350303abdc3a962d64464b419f8a89a475e507622c255f581d76129f92351"
+    },
+    {
+      "path": "local/7.json",
+      "lines": 7,
+      "source_sha256": "6f3ca8318e0fdce1383cb145c0d29d830b8e8bfe060dd6e7a677614d6fc0d94f"
+    },
+    {
+      "path": "local/7h.json",
+      "lines": 6,
+      "source_sha256": "cf6efc3d652241e72d870865eb9d8a4fb1a2683fbcfdf68cff1b80c0a153ca7a"
+    },
+    {
+      "path": "local/8.json",
+      "lines": 15,
+      "source_sha256": "11f86af1a7459a82178c824b5fabda7fd80c09d5da37da4a00d8b9bba75c7d7c"
+    },
+    {
+      "path": "local/9.json",
+      "lines": 10,
+      "source_sha256": "ea7fd1e681c821ffc9633a56d8d224529f2cb25e7757162c922a5fc14dc6a84b"
+    },
+    {
+      "path": "local/9_1.json",
+      "lines": 11,
+      "source_sha256": "84065b21f522e7332a1624cc6ae2db608c58ad3be46f7575f25471e12be8b7f4"
+    },
+    {
+      "path": "local/9_2.json",
+      "lines": 11,
+      "source_sha256": "b5e65bf4020d2af583883aa22abebb276a44cd964b7afef4c7128aec5a774ddd"
+    },
+    {
+      "path": "local/9_3.json",
+      "lines": 18,
+      "source_sha256": "a1944be6b7f0e1cb523ba64357651e0d526ae2c760e5ec62b9fc2f6358213f73"
+    },
+    {
+      "path": "local/9_4.json",
+      "lines": 21,
+      "source_sha256": "680a9e1f48995bc924f56f215bfe7167ecb49508632c29bf8da0bd21e6536575"
+    },
+    {
+      "path": "local/9h.json",
+      "lines": 10,
+      "source_sha256": "530f7d5defe816a3c72b1788f6b24d97f9e4de014c70fff2a81e3f939297cdf7"
+    },
+    {
+      "path": "local/10.json",
+      "lines": 7,
+      "source_sha256": "b4a6cdfdfb6781493348230a6f8ab7660af6e9bcdbc67748cd492adaec2c2749"
+    },
+    {
+      "path": "local/10_az.json",
+      "lines": 12,
+      "source_sha256": "98a209acd95029b8c289d10916bbebe6e2421d1e065fa08d4951e9716bff80f4"
+    },
+    {
+      "path": "local/10_ce.json",
+      "lines": 7,
+      "source_sha256": "436f305efb2c2c4ac121a5481c6c74ff1720818126d88eaf0ee4d7ab82e8fc16"
+    },
+    {
+      "path": "local/10_ed.json",
+      "lines": 19,
+      "source_sha256": "00cfb2820fee7823469b763f26d84a42fa7f54d4f3240b1cb4960294d3d76836"
+    },
+    {
+      "path": "local/10_ju.json",
+      "lines": 14,
+      "source_sha256": "119e1e1ed8c25eae51ba5d7028cb817e0f9c5dbad76d29d7e48a53abd199820c"
+    },
+    {
+      "path": "local/10_lu.json",
+      "lines": 10,
+      "source_sha256": "0df906f0084f2f331604215d638f7b6635bb7b3d84bdbce2dd6d8ca6bd0fffc9"
+    },
+    {
+      "path": "local/10_ma.json",
+      "lines": 8,
+      "source_sha256": "4c9447bc6e0518e0f4e209129869c9b2b9829dfd5baa696cb9f793e4080537da"
+    },
+    {
+      "path": "local/10_mo.json",
+      "lines": 9,
+      "source_sha256": "f1b668b56f80f666036f85b6cef2ca91f6c77a9b1f50c3b753ccf2f0b69b4631"
+    },
+    {
+      "path": "local/10_pm.json",
+      "lines": 16,
+      "source_sha256": "5356228dec1c901d626acf28f799f3b8e0897acdb2bdf0b6f1c2b298152aa999"
+    },
+    {
+      "path": "local/10_xx.json",
+      "lines": 6,
+      "source_sha256": "30acf3e40f64e2f9c0fbd549fe4b050b726f80585704d5617fa50c15f7f3fb33"
+    },
+    {
+      "path": "local/10_zd.json",
+      "lines": 8,
+      "source_sha256": "24122c80fb57fd3e8f50b30c2176e1e8ded9b1ca40b7bdf33b7f947cdf199921"
+    },
+    {
+      "path": "local/11.json",
+      "lines": 24,
+      "source_sha256": "aefa6148bd05a1faafdece6cb9473c0739c26d7fd8d92709158db87d729aaace"
+    },
+    {
+      "path": "local/11_1.json",
+      "lines": 46,
+      "source_sha256": "62a6f904256be25680cc1106149cdd82b800c8789cf214683b84c84ba6ad2c39"
+    },
+    {
+      "path": "localHM/hm_0.json",
+      "lines": 6,
+      "source_sha256": "a72f215cba8b131b29b6a556471e5b1a5e4cba42e9367069f5abad5052bfd6fd"
+    },
+    {
+      "path": "localHM/hm_1.json",
+      "lines": 9,
+      "source_sha256": "71075dbeb8f85d52a5d3bb2575cbd3d9cee6e6b7ca2f372ac912b9b3da773a27"
+    },
+    {
+      "path": "localHM/hm_2.json",
+      "lines": 11,
+      "source_sha256": "dcc11e87a2c67051c67e0a6dd268ee172d9f873e7420fe9cb495d5febca34315"
+    },
+    {
+      "path": "localHM/hm_3.json",
+      "lines": 11,
+      "source_sha256": "d0a2d4d97db0f17af1c516db91b106d2e6ee9447b911139768e0af57896cacf2"
+    },
+    {
+      "path": "localHM/hm_4.json",
+      "lines": 11,
+      "source_sha256": "0aa95d7505d210bb80eef2c37f906b10daf1d5e31876f73609a04f69de70efd1"
+    },
+    {
+      "path": "localHM/hm_5.json",
+      "lines": 9,
+      "source_sha256": "1f27c956c7c7331741bb3234e68f9c3298e7d6bae70f6b6f63305318252d171f"
+    },
+    {
+      "path": "localHM/hm_6.json",
+      "lines": 11,
+      "source_sha256": "164d34e13ee907e8486a66551c2dd64db43ad94cf296472f18f5dda0fbde81e9"
+    },
+    {
+      "path": "localHM/hm_7.json",
+      "lines": 22,
+      "source_sha256": "668b6d7a89af67fea9088847b784ad254ee6b277e17b96940002611eb521c138"
+    },
+    {
+      "path": "localHM/hm_8.json",
+      "lines": 18,
+      "source_sha256": "77330cc74ec78a672644965737a62cd9c5b0fa92f596b1c81fb931c4d622d4e8"
+    },
+    {
+      "path": "localHM/hm_m.json",
+      "lines": 13,
+      "source_sha256": "daf12f7acf880615c105a9d5fb9e0875f4f4d518a45bc14f2f3ce3f15e27670b"
+    }
+  ]
+}
